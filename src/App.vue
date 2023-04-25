@@ -2,7 +2,7 @@
   <div id="app">
     <div class="lang-select">
       <span class="lang" :class="{selected: lang === 'ENG'}" @click="setLang('ENG')">ENG</span> /
-      <span class="lang" :class="{selected: lang === 'HAI'}" @click="setLang('HAI')">ՀԱԻ</span> /
+      <span class="lang" :class="{selected: lang === 'HAI'}" @click="setLang('HAI')">ՀԱՅ</span> /
       <span class="lang" :class="{selected: lang === 'RUS'}" @click="setLang('RUS')">РУС</span> 
     </div>
     <h1 class="header">{{getFromDict('title')}}</h1>
