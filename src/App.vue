@@ -37,7 +37,7 @@ export default {
         title: generateMultilang('ТУПИК', 'DEADLOCK', 'ՓԱԿՈՒՂԻ'),
         days: generateMultilang('Чт, Пт, Сб, Вс — 16:00-22:00', 'Th, Fr, Sa, Su — 16:00-22:00', 'Հն Ու Շբ Կր — 16:00-22:00'),
         address: generateMultilang('улица Братьев Орбели, 63/1', '63/1 Orbeli Brothers St, Yerevan', '63/1 Օրբելի եղբայրների փողոց'),
-        free: generateMultilang('Вход 5000 ֏', 'Free admission', 'Մուտք ազատ է'),
+        free: generateMultilang('Вход свободный', 'Free admission', 'Մուտք ազատ է'),
       }
     }
   },
