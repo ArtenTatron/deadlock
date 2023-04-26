@@ -15,7 +15,13 @@
           Ереван
         </a>
         <a href="https://yandex.ru/maps/10262/yerevan/house/YE0Ycg9oSEYOQFpqfX14c3lqZw==/?ll=44.487960%2C40.192471&utm_medium=mapframe&utm_source=maps&z=17" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Братьев Орбели, 63/1 — Яндекс Карты</a>
-        <iframe src="https://yandex.ru/map-widget/v1/?ll=44.487960%2C40.192471&mode=whatshere&whatshere%5Bpoint%5D=44.487960%2C40.192471&whatshere%5Bzoom%5D=17&z=17" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        <iframe src="https://yandex.ru/map-widget/v1/?ll=44.487960%2C40.192471&mode=whatshere&whatshere%5Bpoint%5D=44.487960%2C40.192471&whatshere%5Bzoom%5D=17&z=17" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+      </div>
+      <br/>
+      <p>{{getFromDict('p1')}}</p>
+      <p>{{getFromDict('p2')}}</p>
+      <p>{{getFromDict('p3')}}</p>
+      <p>{{getFromDict('p4')}}</p>
     </div>
   </div>
 </template>
@@ -25,6 +31,8 @@
 const generateMultilang = (RUS, ENG, HAI ) => {
   return {RUS, ENG, HAI}
 }
+
+import {p1e, p1h, p1r, p2e, p2h, p2r, p3e, p3h, p3r, p4e, p4h, p4r} from './assets/description'
 
 export default {
   name: 'App',
@@ -38,6 +46,10 @@ export default {
         days: generateMultilang('Чт, Пт, Сб, Вс — 16:00-22:00', 'Th, Fr, Sa, Su — 16:00-22:00', 'Հն Ու Շբ Կր — 16:00-22:00'),
         address: generateMultilang('улица Братьев Орбели, 63/1', '63/1 Orbeli Brothers St, Yerevan', '63/1 Օրբելի եղբայրների փողոց'),
         free: generateMultilang('Вход свободный', 'Free admission', 'Մուտք ազատ է'),
+        p1: generateMultilang(p1r, p1e, p1h),
+        p2: generateMultilang(p2r, p2e, p2h),
+        p3: generateMultilang(p3r, p3e, p3h),
+        p4: generateMultilang(p4r, p4e, p4h),
       }
     }
   },
