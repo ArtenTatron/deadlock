@@ -48,7 +48,7 @@ export default {
       windowTop: window.top.scrollY,
       dict: {
         title: generateMultilang('ТУПИК', 'DEADLOCK', 'ՓԱԿՈՒՂԻ'),
-        days: generateMultilang('Чт, Пт, Сб, Вс — 16:00-22:00', 'Th, Fr, Sa, Su — 16:00-22:00', 'Հն Ու Շբ Կր — 16:00-22:00'),
+        days: generateMultilang('Чт, Пт, Сб, Вс — 18:00-22:00', 'Th, Fr, Sa, Su — 18:00-22:00', 'Հն Ու Շբ Կր — 18:00-22:00'),
         address: generateMultilang('улица Братьев Орбели, 63/1', '63/1 Orbeli Brothers St, Yerevan', '63/1 Օրբելի եղբայրների փողոց'),
         free: generateMultilang('Вход свободный', 'Free admission', 'Մուտք ազատ է'),
         p1: generateMultilang(p1r, p1e, p1h),
